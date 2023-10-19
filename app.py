@@ -29,7 +29,7 @@ def assign_status(group, targets, reserves):
     return group
 
 # Streamlit app
-st.title('File Upload for Status Assignment')
+st.title('RTV Standard Evaluations Status Assignment')
 
 # Upload the Excel file
 file = st.file_uploader('Upload an excel file', type=['xls', 'xlsx'])
