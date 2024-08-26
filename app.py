@@ -41,7 +41,7 @@ if file:
 
     # Assign default targets and reserves (Modify as needed)
     targets = {'Male Headed': 9, 'Female Headed': 3, 'Youth Headed': 3}
-    reserves = {'Male Headed': 5, 'Female Headed': 2, 'Youth Headed': 2}
+    reserves = {'Male Headed': 4, 'Female Headed': 2, 'Youth Headed': 2}
 
     # Process the data
     df = data.groupby('village', group_keys=False).apply(assign_status, targets=targets, reserves=reserves)
